@@ -1,0 +1,22 @@
+[project]
+name = "fridgprompt"
+version = "0.1.0"
+description = "A prompt vault with pattern analysis for vibe coders"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "ollama>=0.1.0",
+]
+
+[project.scripts]
+fridgprompt = "fridgprompt.cli:main"
+fp = "fridgprompt.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["fridgprompt"]
