@@ -56,7 +56,7 @@ Fridgprompt is your personal prompt refrigerator. Open it up, grab what you need
 ## Install
 
 ```bash
-git clone https://github.com/yourusername/fridgprompt.git
+git clone https://github.com/95987-AP/Fridgprompt.git
 cd fridgprompt
 pip install -e .
 ```
